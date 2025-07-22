@@ -15,7 +15,6 @@ struct ListNode{
             cout << itr->val << endl;
             itr = itr->next;
         }
-        return;
     }
 
     void insert_back(ListNode *&node, int val){
@@ -29,7 +28,6 @@ struct ListNode{
             }
             itr->next = newnode;
         }
-    return;
     }
 
     void insert_front(ListNode *&node, int val){
